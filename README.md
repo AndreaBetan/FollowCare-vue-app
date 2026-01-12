@@ -1,5 +1,45 @@
-# Vue 3 + TypeScript + Vite
+# FollowCare – Monitoreo de Grupos Poblacionales en Riesgo
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+FollowCare es una aplicación web desarrollada en Vue 3 cuyo objetivo es facilitar el monitoreo continuo de grupos poblacionales en riesgo, apoyando la prevención, el diagnóstico temprano y la toma de decisiones clínicas oportunas.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+La aplicación permite realizar un seguimiento proactivo y basado en datos de:
+
+🫀 Pacientes con riesgo cardiovascular
+
+👩 Mujeres en edad fértil
+
+📋 Personas con exámenes médicos pendientes
+
+Todo el flujo está simulado utilizando la API pública https://randomuser.me.
+
+**INSTALACIÓN**
+
+Asegúrate de tener Node.js y npm instalados en tu máquina. Luego, realiza los siguientes pasos:
+
+1. Clona este repositorio: git clone https://github.com/AndreaBetan/FollowCare-vue-app.git
+2. Navega al directorio del proyecto: cd nombre-de-tu-proyecto
+3. Instala las dependencias: npm install
+
+**USO**
+
+npm run dev
+
+**TECNOLOGÍAS UTILIZADAS**
+
+- Vue 3 
+- PrimeVue v3 
+- PrimeFlex
+- Pinia (Gestión de estado)
+- VeeValidate v4
+- Vue Router
+- RandomUser API (simulación de backend)
+- Vite (entorno de desarrollo)
+
+**CARACTERISTICAS**
+
+- Visualización de listado de pacientes.
+- Clasificación por grupos de riesgo.
+- Modal de detalle de paciente en el cual se puede editar sus datos.
+- Creación de nuevos pacientes.
+- Loader global durante cargas de datos.
+- Arquitectura modular

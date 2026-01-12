@@ -1,9 +1,19 @@
 <script setup lang="ts">
+import Navbar from "@/components/Navbar.vue";
+import Sidebar from "@/components/Sidebar.vue";
 </script>
 
 <template>
   <div>
-    <RouterView />
+    <Navbar />
+    <div class="flex">
+     
+      <Sidebar class="layout-menu mr-2 mt-2" />
+
+      <main class="layout-content">
+        <RouterView />
+      </main>
+    </div>
   </div>
 </template>
 
