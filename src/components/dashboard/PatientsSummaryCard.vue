@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import { usePatientStore } from "../store/patientStore";
 import { patientsApi } from "@/api/patientsApi";
 import type { PatientResponse, Result as Patient } from "@/interfaces/patient";
 import { usePatients } from "@/composables/usePatients";
